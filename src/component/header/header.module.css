@@ -29,6 +29,9 @@
     box-shadow: 3px 1px 3px 1px #f9f9f9;
     padding: 5px;
 }
+.title{
+    margin-left: 50px;
+}
 .rightHeaderItems{
     margin-left: 100px;
     display: flex;
@@ -52,4 +55,25 @@
 }
 .ıtemsOfCenter{
     color: red;
+}
+.ıcons{
+    width: 20px;
+    height: 20px;
+}
+.animatedText{
+    background: black;
+    width: 100%;
+    height: 30px;
+}
+.animatedTextContent{
+    color:white;
+    animation: scrollText 20s linear infinite;
+}
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }

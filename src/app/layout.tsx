@@ -1,4 +1,3 @@
-// Düzeltme yapılmış import ifadeleri
 import { Metadata } from "next";
 import "./globals.css";
 import '@mantine/core/styles.css';
