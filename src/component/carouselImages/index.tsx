@@ -1,7 +1,8 @@
+'use client'
 import { useEffect, useState } from 'react';
-import styles from './crousel.module.css';
+import styles from './carousel.module.css';
 
-const images = ['/Hayao-', '/images/image2.jpg', '/images/image3.jpg', '/images/image4.jpg', '/images/image5.jpg'];
+const images = ['/HayaoMiyazaki.jp', '/ko8rxxqv1yty.png', '/Leonardo_Diffusion_XL_so_many_attack_on_titandemon_slayersbung_2.jpg', '/Leonardo_Diffusion_XL_princess_who_has_a_long_hair_and_black_e_3.jpg'];
 
 const ImageSlider = () => {
     const [currentImage, setCurrentImage] = useState(0);
