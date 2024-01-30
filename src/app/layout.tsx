@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import "./globals.css";
 import '@mantine/core/styles.css';
 import { createTheme, MantineProvider } from '@mantine/core';
+import Header from "@/component/header";
 const theme = createTheme({
   /** Put your mantine theme override here */
 });
@@ -21,6 +22,7 @@ export default function RootLayout({
       <head>
       </head>
       <body>
+      <Header />
       <MantineProvider theme={theme}>
         {children}
       </MantineProvider>

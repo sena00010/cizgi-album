@@ -1,7 +1,14 @@
+'use client'
 import styles from './header.module.css'
 import {faImages, faBasketShopping, faFile, faStar, faLocationDot} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {useRouter} from "next/navigation";
 export default function Header(){
+    const router=useRouter()
+
+    const handleAboutUsClick = () => {
+        router.push('../aboutUs');
+    };
     return(
         <div>
             <div className={styles.container}>
@@ -43,7 +50,7 @@ export default function Header(){
                     </div>
                     <div className={styles.dropdown}>
                         {/*<FontAwesomeIcon icon={faStar} />*/}
-                        <a href={''}>HAKKIMIZDA</a>
+                        <a href={''} onClick={handleAboutUsClick}>HAKKIMIZDA</a>
                     </div>
                     <div className={styles.dropdown}>
                         {/*<FontAwesomeIcon icon={faLocationDot} />*/}

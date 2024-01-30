@@ -10,7 +10,6 @@ import ImagesParonomicList from "@/component/paranomicSeries";
 export default function Home() {
   return (
     <>
-      <Header />
       <ImageSlider />
         <Explanaiton/>
         <ImageSlider />
