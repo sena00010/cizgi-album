@@ -20,10 +20,13 @@ export default function Header(){
                         {/*<FontAwesomeIcon size={'2xs'} icon={faImages} />*/}
                         <span>PANORAMİK ALBÜMLER</span>
                         <div className={styles.dropdowncontent}>
-                            <a href={''}>sena</a>
-                            <a href={''}>sena</a>
-                            <a href={''}>sena</a>
-                            <a href={''}>sena</a>
+                            <a href={''}>Çizgi Avantaj Seri</a>
+                            <a href={''}>New Line Serisi</a>
+                            <a href={''}>Line Serisi</a>
+                            <a href={''}>Standart Serisi</a>
+                            <a href={''}>Kampanya Seri</a>
+                            <a href={''}>baby Seri</a>
+
                         </div>
                     </div>
                     <div className={styles.dropdown}>

@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    align-items: center;
+    padding: 0px 30px;
+}
+.main{
+    background-color:blanchedalmond ;}
+
+.boxContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.ıtemsContainer {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.ımageStyle {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+.newModelsTitle{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+}
